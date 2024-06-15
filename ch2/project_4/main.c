@@ -18,7 +18,7 @@ int main(int argc, char *argv[argc + 1]){
         memset(input, '\0', MAX_SIZE);
         printf("Enter an amount[max %d digits]: ", MAX_SIZE - 1);
         fgets(input, MAX_SIZE, stdin);
-        if (input[0] == '\n'){
+        if (input[0] == '\n' || (input[0] == '.' && input[1] == '\n')){
                 fprintf(stderr, "Error, no input provided\n");
                 return EXIT_FAILURE;
         }
@@ -59,10 +59,9 @@ int main(int argc, char *argv[argc + 1]){
                                 fprintf(stderr, "Error, fraction of cent\n");
                                 return EXIT_FAILURE;
                         }
-                        
                 }
-
         }
+
         amount = strtof(input, NULL);
         total = amount + amount * TAX;
         printf("With %.2f%% tax added: $%.2f\n", TAX, total);
