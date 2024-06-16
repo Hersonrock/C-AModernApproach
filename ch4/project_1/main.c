@@ -12,5 +12,6 @@ int main(void){
         b = (i - a) / 10;
 
         printf("The reversal is: %d%d\n", a, b);
+
         return EXIT_SUCCESS;
 }
