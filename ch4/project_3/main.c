@@ -6,5 +6,6 @@ int main(void){
         printf("Enter a three-digit number: ");
         scanf("%1d%1d%1d", &c, &b, &a);
         printf("The reversal is: %d%d%d\n", a, b, c);
+
         return EXIT_SUCCESS;
 }
