@@ -1,0 +1,23 @@
+630d5d7c4000-630d5d7c5000 r--p 00000000 08:02 3807041                    /home/spike/aModernApproach/ch5/project_8/main.out
+630d5d7c5000-630d5d7c6000 r-xp 00001000 08:02 3807041                    /home/spike/aModernApproach/ch5/project_8/main.out
+630d5d7c6000-630d5d7c7000 r--p 00002000 08:02 3807041                    /home/spike/aModernApproach/ch5/project_8/main.out
+630d5d7c7000-630d5d7c8000 r--p 00002000 08:02 3807041                    /home/spike/aModernApproach/ch5/project_8/main.out
+630d5d7c8000-630d5d7c9000 rw-p 00003000 08:02 3807041                    /home/spike/aModernApproach/ch5/project_8/main.out
+630d5ed61000-630d5ed82000 rw-p 00000000 00:00 0                          [heap]
+7f09f5600000-7f09f5628000 r--p 00000000 08:02 1457941                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7f09f5628000-7f09f57b0000 r-xp 00028000 08:02 1457941                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7f09f57b0000-7f09f57ff000 r--p 001b0000 08:02 1457941                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7f09f57ff000-7f09f5803000 r--p 001fe000 08:02 1457941                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7f09f5803000-7f09f5805000 rw-p 00202000 08:02 1457941                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7f09f5805000-7f09f5812000 rw-p 00000000 00:00 0 
+7f09f58f6000-7f09f58f9000 rw-p 00000000 00:00 0 
+7f09f5907000-7f09f5909000 rw-p 00000000 00:00 0 
+7f09f5909000-7f09f590a000 r--p 00000000 08:02 1457937                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f09f590a000-7f09f5935000 r-xp 00001000 08:02 1457937                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f09f5935000-7f09f593f000 r--p 0002c000 08:02 1457937                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f09f593f000-7f09f5941000 r--p 00036000 08:02 1457937                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f09f5941000-7f09f5943000 rw-p 00038000 08:02 1457937                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffc3a551000-7ffc3a572000 rw-p 00000000 00:00 0                          [stack]
+7ffc3a5f7000-7ffc3a5fb000 r--p 00000000 00:00 0                          [vvar]
+7ffc3a5fb000-7ffc3a5fd000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]

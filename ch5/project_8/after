@@ -1,0 +1,23 @@
+61840668e000-61840668f000 r--p 00000000 08:02 3807042                    /home/spike/aModernApproach/ch5/project_8/main.out (deleted)
+61840668f000-618406690000 r-xp 00001000 08:02 3807042                    /home/spike/aModernApproach/ch5/project_8/main.out (deleted)
+618406690000-618406691000 r--p 00002000 08:02 3807042                    /home/spike/aModernApproach/ch5/project_8/main.out (deleted)
+618406691000-618406692000 r--p 00002000 08:02 3807042                    /home/spike/aModernApproach/ch5/project_8/main.out (deleted)
+618406692000-618406693000 rw-p 00003000 08:02 3807042                    /home/spike/aModernApproach/ch5/project_8/main.out (deleted)
+618407e14000-618407e35000 rw-p 00000000 00:00 0                          [heap]
+70a5d6400000-70a5d6428000 r--p 00000000 08:02 1457941                    /usr/lib/x86_64-linux-gnu/libc.so.6
+70a5d6428000-70a5d65b0000 r-xp 00028000 08:02 1457941                    /usr/lib/x86_64-linux-gnu/libc.so.6
+70a5d65b0000-70a5d65ff000 r--p 001b0000 08:02 1457941                    /usr/lib/x86_64-linux-gnu/libc.so.6
+70a5d65ff000-70a5d6603000 r--p 001fe000 08:02 1457941                    /usr/lib/x86_64-linux-gnu/libc.so.6
+70a5d6603000-70a5d6605000 rw-p 00202000 08:02 1457941                    /usr/lib/x86_64-linux-gnu/libc.so.6
+70a5d6605000-70a5d6612000 rw-p 00000000 00:00 0 
+70a5d67e0000-70a5d67e3000 rw-p 00000000 00:00 0 
+70a5d67f1000-70a5d67f3000 rw-p 00000000 00:00 0 
+70a5d67f3000-70a5d67f4000 r--p 00000000 08:02 1457937                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+70a5d67f4000-70a5d681f000 r-xp 00001000 08:02 1457937                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+70a5d681f000-70a5d6829000 r--p 0002c000 08:02 1457937                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+70a5d6829000-70a5d682b000 r--p 00036000 08:02 1457937                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+70a5d682b000-70a5d682d000 rw-p 00038000 08:02 1457937                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffc99fa8000-7ffc99fc9000 rw-p 00000000 00:00 0                          [stack]
+7ffc99fec000-7ffc99ff0000 r--p 00000000 00:00 0                          [vvar]
+7ffc99ff0000-7ffc99ff2000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
