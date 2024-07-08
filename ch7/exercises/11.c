@@ -6,8 +6,8 @@ int main(int argc, char *argv[]){
         float f = 2;
         double d = 5;        
 
-        printf("Type i + (int)j * k: %d\n", i + (int)j * k);
-        // operation is an unsigned int
+        printf("Result of i * f /d: %f\n", i * f / d);
+        // operation is a double
 
         return EXIT_SUCCESS;
 }
