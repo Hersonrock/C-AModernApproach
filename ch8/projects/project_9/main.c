@@ -3,8 +3,8 @@
 #include<unistd.h>
 #include<time.h>
 
-#define COL 24 // '+' + "._"(X10) + '+' + '\n' + \0
-#define ROW 11  
+#define COL 64 // '+' + "._"(X10) + '+' + '\n' + \0
+#define ROW 31  
                
 void clear_screen();
 void print_array(char array[ROW + 1][COL + 1]);
@@ -29,8 +29,8 @@ int main(int main, char *argv[]){
                 if(start_flag){
                         init_array(array);
                         init_boundaries(array);
-                        init_x = ((rand() % 10) * 2) + 2;
-                        init_y = (rand() % 10) + 1;
+                        init_x = ((rand() % ROW - 1) * 2) + 2;
+                        init_y = (rand() % ROW - 1) + 1;
                         cur_x = init_x;
                         cur_y = init_y;
                         letter = 65;
@@ -45,6 +45,7 @@ int main(int main, char *argv[]){
                 while(valid_route){
                         valid_route = 0;
                         next_step = rand() % 4;
+                        if(letter == 121) letter = 65;
                         switch(next_step){
                                 case 0:
                                         if(array[cur_y][cur_x - 2] == '.'){
@@ -96,10 +97,10 @@ print:
                         cont_flags[i] = 0;
                 }
                 valid_route = 1;
-                printf("+++++++++++++++++++++++\n");
+                printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
                 print_array(array);
                 fflush(stdout);
-                usleep(100*1000);
+                usleep(50*1000);
         }
         return EXIT_SUCCESS;
 }
